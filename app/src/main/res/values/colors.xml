@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7BA3A2</color>
+    <color name="colorPrimaryDark">#1B3345</color>
+    <color name="colorAccent">#FFD150</color>
+    <color name="darkBackground">#132533</color>
+    <color name="red">#A37E7B</color>
+    <color name="loginField">#4C6C84</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#E5E5E5</color>
+    <color name="greySelector">#D8D8D8</color>
+    <color name="greyDisabled">#D1D1D1</color>
+    <color name="greyText">#A3A3A3</color>
+</resources>

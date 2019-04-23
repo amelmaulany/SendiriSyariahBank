@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkBackground"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:minHeight="?attr/actionBarSize"
+            android:titleTextColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btn_dashboard"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/dashboard_icon" />
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/my_account"
+                    android:layout_marginLeft="125dp"
+                    android:textColor="@color/white"/>
+
+                <ImageButton
+                    android:id="@+id/btn_contact_us"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="110dp"
+                    android:background="@null"
+                    android:src="@drawable/contact_us" />
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/balance_receipt"
+            />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center|bottom"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/ok"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

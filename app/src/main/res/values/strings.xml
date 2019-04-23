@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SendiriSyariah</string>
+    <string name="username_hint">username</string>
+    <string name="password_hint">password</string>
+    <string name="login_button">login</string>
+    <string name="copyright">copyright by SendiriSyariah Team (2019)</string>
+    <string name="my_account">My Account</string>
+    <string name="my_balance">My Balance</string>
+    <string name="ok">OK</string>
+    <string name="account_mutation">Account Mutation</string>
+    <string name="norek">0110239021321</string>
+    <string name="account_number">account number</string>
+    <string name="transaction_type">transaction type</string>
+    <string-array name="transaction_type_array">
+        <item>All</item>
+        <item>Credit</item>
+        <item>Debit</item>
+    </string-array>
+</resources>
